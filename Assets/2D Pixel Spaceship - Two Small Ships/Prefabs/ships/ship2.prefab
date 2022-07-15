@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4055151358943464}
   - component: {fileID: 212975623519947666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ship2-lines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300008, guid: 8aeb9e233fbb8f14db39770841b78b94, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 0.5019608}
+  m_Color: {r: 0, g: 0.9923811, b: 1, a: 0.5019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4629620492563178}
   - component: {fileID: 212816092555092974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ship2-flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 212975254239921132}
   - component: {fileID: 6096439715667576553}
   - component: {fileID: 5971503400538155749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ship2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -262,6 +262,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cefdb076ff62734fbfe0eaa176d96fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentQuaternion: {x: 0, y: 0, z: 0, w: 0}
+  movementSpeed: 1
+  rotationSpeed: 0.7
+  bulletPrefab: {fileID: 5412557277183109061, guid: dc14fdc76d75c6e468b9a119eaf40baf, type: 3}
 --- !u!70 &5971503400538155749
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

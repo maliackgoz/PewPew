@@ -135,6 +135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1383e02ecaa576249bd7f627beaed910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: 0}
+  spawnDistance: 15
+  spawnRate: 0.7
+  amountPerSpawn: 1
+  trajectoryVariance: 15
 --- !u!114 &-1115808280683759661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +155,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   spriteRenderer: {fileID: 0}
   size: 1
-  minSize: 0.35
-  maxSize: 1.65
-  movementSpeed: 50
+  minSize: 0.7
+  maxSize: 1.5
+  movementSpeed: 60
   maxLifetime: 30

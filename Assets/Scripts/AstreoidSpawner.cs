@@ -30,11 +30,11 @@ public class AstreoidSpawner : MonoBehaviour
             // Calculate a random variance in the asteroid's rotation which will
             // cause its trajectory to change
             float variance = Random.Range(-trajectoryVariance, trajectoryVariance);
-            Quaternion rotation = Quaternion.AngleAxis(variance, Vector3.forward);
+            Quaternion rotation = Quaternion.AngleAxis(variance, Vector3.forward); // *
 
             // Create the new asteroid by cloning the prefab and set a random
             // size within the range
-            AstreoidController asteroid = Instantiate(this.asteroidPrefab, spawnPoint, rotation);
+            AstreoidController asteroid = Instantiate(asteroidPrefab, spawnPoint, rotation);
             asteroid.size = Random.Range(asteroid.minSize, asteroid.maxSize);
 
             // Set the trajectory to move in the direction of the spawner

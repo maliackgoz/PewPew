@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1988642528101901457}
   - component: {fileID: 8996899896660948143}
   - component: {fileID: 1278804949900197162}
-  - component: {fileID: 6704977314163767611}
   - component: {fileID: -1115808280683759661}
   m_Layer: 9
   m_Name: Astreoid
@@ -123,23 +122,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.028331637}
   serializedVersion: 2
   m_Radius: 0.66463804
---- !u!114 &6704977314163767611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779767994597124604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1383e02ecaa576249bd7f627beaed910, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  asteroidPrefab: {fileID: 0}
-  spawnDistance: 15
-  spawnRate: 0.7
-  amountPerSpawn: 1
-  trajectoryVariance: 15
 --- !u!114 &-1115808280683759661
 MonoBehaviour:
   m_ObjectHideFlags: 0

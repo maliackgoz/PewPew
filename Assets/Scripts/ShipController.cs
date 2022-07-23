@@ -29,6 +29,7 @@ public class ShipController : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
+            // transform.forward *
         }
 
         if (Input.GetKey(KeyCode.D))
